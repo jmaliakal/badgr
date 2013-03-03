@@ -156,7 +156,10 @@ function alphaID($in, $to_num = false, $pad_up = false, $passKey = null)
     return $out;
 }
 
-// $id = alphaID(9007199254740989);
-$id = alphaID('fE2XnNGpF', true);
+// alphaID encode:
+$id = alphaID(139, false, 6);
+// alphaID decode:
+// $id = alphaID('fE2XnNGpF', true, );
 echo $id;
+
 ?>

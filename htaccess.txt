@@ -1,0 +1,5 @@
+# This allows you to redirect index.html to a specific subfolder
+Redirect /Gdbbbc http://getbadgr.com/jTest/1.php #Taggart
+Redirect /Fdbbbc http://getbadgr.com/jTest/1.php #Jithu
+Redirect /4dbbbc http://getbadgr.com/jTest/1.php #David
+Redirect /tdbbbc http://getbadgr.com/jTest/1.php #Charles

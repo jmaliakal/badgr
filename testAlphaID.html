@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<?php
+include('alphaID.php');
+include('inc/functions.inc.php'):
+
+$userid=$_GET['userid'];
+
+$line = get_user_info($userid, $eventid) or die('couldnt get user info');
+?>
+
+<html>
+
+<body>
+
+<?php echo alphaID(02221991); ?>
+
+</body>
+</html>
